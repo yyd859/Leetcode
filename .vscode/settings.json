@@ -1,0 +1,12 @@
+{
+    "launch": 
+{
+   "github.copilot.enable": {
+       "*": false
+   },
+   "github.copilot.editor.enableAutoCompletions": false,
+   "github.copilot.editor.enableCodeActions": false,
+   "chat.disableAIFeatures": true
+},
+"chat.disableAIFeatures": true
+}
