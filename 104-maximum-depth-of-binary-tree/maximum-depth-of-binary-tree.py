@@ -14,7 +14,7 @@ class Solution:
         #     return 0
         # return 1 + max(self.maxDepth(root.left),self.maxDepth(root.right))
         # BFS
-        # give a deque, everytime when you go one depth lower, treverse all the nodes for the next layer, until the next layer is all null
+        # give a deque; add 1 to depth and traverse all the nodes in that layer; pop the first node from queue and check if has child nodes, if find them, add them to queue; until the queue is empty
         if not root:
             return 0
         depth = 0
